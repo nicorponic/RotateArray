@@ -23,12 +23,12 @@ public class RotateArray {
         }
 
         int j = 0;
-        //populates to kainourio array apo to K kai meta
+        // populates to kainourio array apo to K kai meta
         for (int i = K; i < A.length; i++) {
             result[i] = A[j];
             j++;
         }
-        //antigrafei to kainourio array sto arxiko array
+        // antigrafei to kainourio array sto arxiko array
         System.arraycopy(result, 0, A, 0, A.length);
 
         System.out.println(Arrays.toString(A));
